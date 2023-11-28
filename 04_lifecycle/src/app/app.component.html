@@ -1,0 +1,8 @@
+<h1>My App</h1>
+
+<app-title nome="Produto 1"></app-title> 
+
+<app-check-sample *ngIf="isAliveCheckSample"></app-check-sample>
+<hr>
+<button type="button" (click)="disposeCheckSample()">{{isAliveCheckSample?"Destruir":"Criar"}}</button>
+<router-outlet></router-outlet>
